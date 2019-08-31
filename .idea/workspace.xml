@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="890bcf18-dce7-4f4a-ad51-a6e1ed8164a2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/pokevel/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/pokevel/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/composer" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/pokevel/vendor/opis/closure" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Q9Km4RlMFFITbczedGxCAxH23F" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Artisan serve" type="LaravelStorm_run_conf_serve" factoryName="Laravel">
+      <option name="host" value="localhost" />
+      <option name="port" value="8000" />
+      <option name="route" value="/" />
+      <option name="browser" value="" />
+      <option name="interpreterName" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="890bcf18-dce7-4f4a-ad51-a6e1ed8164a2" name="Default Changelist" comment="" />
+      <created>1567177527748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567177527748</updated>
+      <workItem from="1567177529005" duration="896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
