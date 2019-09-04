@@ -2,44 +2,25 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{config('app.name')}}</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    {{--<link href="https://fonts.googleapis.com/css?family=Permanent+Marker:200,600" rel="stylesheet">--}}
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         html, body {
-            background-color: #fff;
             color: #636b6f;
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Press Start 2P', cursive;
             font-weight: 200;
             height: 100vh;
             margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
         }
 
         .content {
@@ -66,33 +47,24 @@
     </style>
 </head>
 <body>
-<div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
+    <div id="app" class="container">
+        <section class="jumbotron text-center ghost-background">
+            <div class="content">
+                <div class="title m-b-md">
+                    <img src="https://fontmeme.com/permalink/190904/abf2d895ec518ac1118cdca9f4d31c5e.png" alt="pokemon-font" border="0">
+                </div>
 
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}">Register</a>
-                @endif
-            @endauth
-        </div>
-    @endif
-
-    <div class="content">
-        <div class="title m-b-md">
-            {{config('app.name')}}
-        </div>
-
-        <div class="links">
-            <a href="https://laravel.com/docs">Pokemon</a>
-            <a href="https://laracasts.com">Types</a>
-            <a href="https://laravel-news.com">Moves</a>
-        </div>
+                <div class="links">
+                    <a href="{{url('/')}}">Pokemon</a>
+                    <a href="{{url('/')}}">Types</a>
+                    <a href="{{url('/')}}">Moves</a>
+                </div>
+            </div>
+        </section>
+        @yield('content')
     </div>
-</div>
-@yield('content')
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
