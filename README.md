@@ -4,7 +4,8 @@ Simple web app i made to play around with Laravel.
 
 The web app consumes the PokeAPI and displays some of the data. I used Bootstrap for styling and Npm for the frontend dependancy management.
 
-Screenshot example:
+Screenshot example (work in progress):
+![Poke Screenshot](/public/images/pokeScreenshot.png)
 
 Credits:
  - PokeAPI: https://pokeapi.co/
