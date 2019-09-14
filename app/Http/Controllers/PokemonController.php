@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 
 class PokemonController extends Controller
 {
+
+    private $client;
+    private $baseUrl;
 
     public function __construct()
     {
@@ -26,10 +28,11 @@ class PokemonController extends Controller
             $evolutionChain = self::getEvolutionChain($pokemon['id']);
             $evolvesToName = $this->getEvolutionName($evolutionChain, $pokemon['name']);
             $evolvesToSprite = isset($evolvesToName) ? $this->getPokemonSprite($evolvesToName) : null;
+            //PokeApi returns a sprite array with nulls in, this results in hole in the carousel so i clean it up
+            $pokemonSprites = array_filter($pokemon['sprites']);
             //remove moves from pokemon object to speed up page loading
             $pokemon = array_except($pokemon, ['moves']);
-            //Log::debug("POKEMON: ", [$pokemon]);
-            return view('pages.pokemon', compact('pokemon', 'evolvesToSprite', 'evolvesToName'));
+            return view('pages.pokemon', compact('pokemon', 'evolvesToSprite', 'evolvesToName', 'pokemonSprites'));
         } catch (RequestException $rex) {
             return view('pages.pokemon')->with('pokemon', null);
         }

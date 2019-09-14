@@ -9,9 +9,9 @@
             <div id="pokemon-carousel" class="carousel slide align-items-center container pokevel-carousel" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{$pokemon['sprites']['front_default']}}" class="d-block w-75 pokevel-carousel-image">
+                        <img src="{{$pokemonSprites['front_default']}}" class="d-block w-75 pokevel-carousel-image">
                     </div>
-                    @foreach($pokemon['sprites'] as $sprite)
+                    @foreach($pokemonSprites as $sprite)
                         <div class="carousel-item">
                             <img src="{{$sprite}}" class="d-block w-75 pokevel-carousel-image">
                         </div>
