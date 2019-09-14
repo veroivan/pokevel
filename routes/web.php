@@ -14,5 +14,9 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+Route::get('/types', function () {
+    return view('pages.types');
+});
 
 Route::get('/searchPokemon', 'PokemonController@searchPokemon');
+

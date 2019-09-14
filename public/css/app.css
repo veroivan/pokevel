@@ -12999,3 +12999,15 @@ a.text-dark:focus {
   margin-top: 20px;
 }
 
+.type-row {
+  margin-bottom: 50px;
+}
+
+.type-tile {
+  text-align: center;
+}
+
+.type-tile .type-name {
+  margin-top: 5px;
+}
+

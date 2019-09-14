@@ -56,7 +56,7 @@
 
                 <div class="links">
                     <a href="{{url('/')}}">Pokemon</a>
-                    <a href="{{url('/')}}">Types</a>
+                    <a href="{{url('/types')}}">Types</a>
                     <a href="{{url('/')}}">Moves</a>
                 </div>
             </div>
