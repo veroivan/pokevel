@@ -34,6 +34,15 @@
                     @endforeach
                 </ul>
             </div>
+            @if($evolvesToSprite)
+            <div id="pokemon-evolution-chain" class="text-center">
+                Evolves to:
+                <a href="{{url('/searchPokemon?search='.$evolvesToName)}}">
+                    <img src="{{$evolvesToSprite}}">
+                </a>
+            </div>
+            @endif
+
         </div>
     @else
         <div>
