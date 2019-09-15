@@ -30,7 +30,9 @@
                 Types:
                 <ul>
                     @foreach($pokemon['types'] as $type)
-                        <li style="list-style-type: none; padding: 0px">{{$type['type']['name']}}</li>
+                        <li class="type-list {{'type-list-'.$type['type']['name']}}">
+                            {{strtoupper($type['type']['name'])}}
+                        </li>
                     @endforeach
                 </ul>
             </div>

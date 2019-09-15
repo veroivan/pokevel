@@ -19,4 +19,5 @@ Route::get('/types', function () {
 });
 
 Route::get('/searchPokemon', 'PokemonController@searchPokemon');
+Route::get('/types/{typeName}', 'TypeController@getTypeDetails');
 

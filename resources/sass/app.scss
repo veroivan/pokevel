@@ -1,19 +1,15 @@
-
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P&display=swap');
-
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
 // Font awesome
 @import "~font-awesome/css/font-awesome.css";
 
 .navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .ghost-background {
@@ -42,14 +38,255 @@
     margin-top: 20px;
 }
 
-.type-row{
+.type-row {
     margin-bottom: 50px;
+    text-align: center;
 }
 
-.type-tile{
+.type-tile {
     text-align: center;
-    .type-name{
+
+    .type-name {
         margin-top: 5px;
     }
+}
+
+.type-list {
+    padding: 0px;
+    background-size: contain;
+}
+
+.type-list-bug {
+    list-style: none;
+}
+.type-list-bug:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/bug.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-dark {
+    list-style: none;
+}
+.type-list-dark:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/dark.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-dragon {
+    list-style: none;
+}
+.type-list-dragon:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/dragon.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-electric {
+    list-style: none;
+}
+.type-list-electric:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/electric.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-fairy {
+    list-style: none;
+}
+.type-list-fairy:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/fairy.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-fighting {
+    list-style: none;
+}
+.type-list-fighting:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/fighting.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-fire {
+    list-style: none;
+}
+.type-list-fire:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/fire.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-flying {
+    list-style: none;
+}
+.type-list-flying:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/flying.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-ghost {
+    list-style: none;
+}
+.type-list-ghost:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/ghost.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-grass {
+    list-style: none;
+}
+.type-list-grass:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/grass.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-ground {
+    list-style: none;
+}
+.type-list-ground:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/ground.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-ice {
+    list-style: none;
+}
+.type-list-ice:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/ice.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-normal {
+    list-style: none;
+}
+.type-list-normal:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/normal.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-poison {
+    list-style: none;
+}
+.type-list-poison:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/poison.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-psychic {
+    list-style: none;
+}
+.type-list-psychic:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/psychic.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-rock {
+    list-style: none;
+}
+.type-list-rock:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/rock.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-steel {
+    list-style: none;
+}
+.type-list-steel:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/steel.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.type-list-water {
+    list-style: none;
+}
+.type-list-water:before {
+    content:'';
+    display:inline-block;
+    height:2em;
+    width:2em;
+    background-image: url("/images/types/water.png");
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 
