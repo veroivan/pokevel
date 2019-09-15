@@ -21,21 +21,26 @@ class PokemonController extends Controller
     public function searchPokemon(Request $request)
     {
         $pokemon = $request->get('search');
-        try {
-            $response = $this->client->get($this->baseUrl . 'pokemon/' . $pokemon);
-            $pokemon = json_decode($response->getBody(), true);
-            //get pokemon evolution info
-            $evolutionChain = self::getEvolutionChain($pokemon['id']);
-            $evolvesToName = $this->getEvolutionName($evolutionChain, $pokemon['name']);
-            $evolvesToSprite = isset($evolvesToName) ? $this->getPokemonSprite($evolvesToName) : null;
-            //PokeApi returns a sprite array with nulls in, this results in hole in the carousel so i clean it up
-            $pokemonSprites = array_filter($pokemon['sprites']);
-            //remove moves from pokemon object to speed up page loading
-            $pokemon = array_except($pokemon, ['moves']);
-            return view('pages.pokemon', compact('pokemon', 'evolvesToSprite', 'evolvesToName', 'pokemonSprites'));
-        } catch (RequestException $rex) {
-            return view('pages.pokemon')->with('pokemon', null);
+        if(isset($pokemon)){
+            try {
+                $response = $this->client->get($this->baseUrl . 'pokemon/' . $pokemon);
+                $pokemon = json_decode($response->getBody(), true);
+                //get pokemon evolution info
+                $evolutionChain = self::getEvolutionChain($pokemon['id']);
+                $evolvesToName = $this->getEvolutionName($evolutionChain, $pokemon['name']);
+                $evolvesToSprite = isset($evolvesToName) ? $this->getPokemonSprite($evolvesToName) : null;
+                //PokeApi returns a sprite array with nulls in, this results in hole in the carousel so i clean it up
+                $pokemonSprites = array_filter($pokemon['sprites']);
+                //remove moves from pokemon object to speed up page loading
+                $pokemon = array_except($pokemon, ['moves']);
+                return view('pages.pokemon', compact('pokemon', 'evolvesToSprite', 'evolvesToName', 'pokemonSprites'));
+            } catch (RequestException $rex) {
+                return view('pages.pokemon')->with('pokemon', null);
+            }
+        } else {
+            return redirect('/');
         }
+
     }
 
     function getEvolutionChain($pokemonId)
