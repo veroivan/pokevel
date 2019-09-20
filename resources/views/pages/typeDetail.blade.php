@@ -4,7 +4,7 @@
     <div class="container type-details">
         <div class="row type-row">
             <div class="col align-self-center">
-                <img src="{{url('/images/types/'.$typeName.'.png')}}"/>
+                <img src="{{env(strtoupper($typeName).'_TYPE_IMG')}}"/>
                 <h5 class="type-name">{{strtoupper($typeName)}}</h5>
             </div>
         </div>
